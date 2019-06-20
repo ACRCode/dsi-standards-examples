@@ -1,8 +1,8 @@
 # dsi-standards-examples
 
-RadElements are powerful tools in documenting, communicating, and undersatnding radiology findings. However, as seen with prior standard ontologies, communicating these elements in standardized ways is equally as important to garuntee true interopability.
+RadElement CDEs are powerful tools to document, communicate, and utilize radiology findings. However, as seen with prior medical ontologies, communicating elements in standardized methods is equally as important to ensure true interoperability.
 
-These are sample message showing how to communicate RadElement CDEs with all of the commonly use and acceptabed health care interopabilty standards:
+These are sample message showing how to communicate RadElement CDEs with all the commonly used and accepted health care interoperability standards:
 
 - DICOM SR
 - DICOMWeb
