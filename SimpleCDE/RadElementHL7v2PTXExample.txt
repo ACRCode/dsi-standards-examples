@@ -1,0 +1,7 @@
+OBX|1|CE|RDES44|RDE249|1|||||||||||||    //Pneumothorax Detection
+OBX|2|CE|RDES44|RDE250|0.3|||||||||||||  //Pleural Separation
+OBX|3|CE|RDES44|RDE251|0|||||||||||||    //Pneumothorax Side
+OBX|4|CE|RDES44|RDE252|1|||||||||||||    //Pneumothorax Size
+OBX|5|CE|RDES44|RDE253|2|||||||||||||    //Chest Tube
+
+

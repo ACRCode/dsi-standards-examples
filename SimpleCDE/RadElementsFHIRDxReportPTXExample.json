@@ -1,0 +1,105 @@
+{
+    "resourceType":"DiagnosticReport",
+    "status":"final",
+    "code":{
+        "text":"Chest X-Ray"
+    },
+    "subject":{
+        "display": "<patient name>",
+        "reference": "https://<reference-url>"
+    },
+    "performer":{
+        "display": "<clinician's name>",
+        "reference": "https://<reference-url>"
+    },
+    "result":{
+        "display":"<full text report>",
+        "impression":"<impression>",
+        "narrative":"<narrative>"
+    },
+    
+    "obervations": [
+        // PTX 
+        {
+            "resourceType": "observation",
+            "id": "RDES44",
+            "code": {
+                "system": "http://radelement.org",
+                "code":"RDES44",
+                "display":"Pneumothorax"
+            },
+            "elements": [
+                // Pneumothorax Detection
+                {
+                    "id": "RDE249",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE249",
+                        "display":"Pneumothorax Detection"
+                    },
+                    "valueQuantity": {
+                        "value": 1,
+                        "code": "enum",
+                        "system": "http://radelement.org"
+                    }
+                },
+                // Pleural Separation
+                {
+                    "id": "RDE250",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE250",
+                        "display":"Pleural Separation"
+                    },
+                    "valueQuantity": {
+                        "value": "0.3",
+                        "code":"float",
+                        "system": "http://radelement.org"
+                    }
+                },
+                // Pneumothorax Side
+                {
+                    "id": "RDE251",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE251",
+                        "display":"Pneumothorax Side"
+                    },
+                    "valueQuantity": {
+                        "value": "0",
+                        "code":"enum",
+                        "system": "http://radelement.org"
+                    }
+                },
+                // Pneumothorax Size
+                {
+                    "id": "RDE252",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE252",
+                        "display":"Pneumothorax Size"
+                    },
+                    "valueQuantity": {
+                        "value": "1",
+                        "code":"enum",
+                        "system": "http://radelement.org"
+                    }
+                },
+                // Chest Tube
+                {
+                    "id": "RDE253",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE253",
+                        "display":"Chest Tube"
+                    },
+                    "valueQuantity": {
+                        "value": "2",
+                        "code":"enum",
+                        "system": "http://radelement.org"
+                    }
+                }
+            ]
+        }
+    ]
+}

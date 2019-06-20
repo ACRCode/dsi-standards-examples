@@ -1,0 +1,120 @@
+{
+    "resourceType":"DiagnosticReport",
+    "status":"final",
+    "code":{
+        "text":"Chest X-Ray"
+    },
+    "subject":{
+        "display": "<patient name>",
+        "reference": "https://<reference-url>"
+    },
+    "performer":{
+        "display": "<clinician's name>",
+        "reference": "https://<reference-url>"
+    },
+    "result":{
+        "display":"<full text report>",
+        "impression":"<impression>",
+        "narrative":"<narrative>"
+    },
+    
+    "obervations": [
+        {
+            "resourceType": "observation",
+            "id": "RDES44",
+            "code": {
+                "system": "http://radelement.org",
+                "code":"RDES44",
+                "display":"Pneumothorax"
+            },
+            "elements": [
+                {
+                    "id": "RDE249",
+                    "code": {
+                        "system": "http://radelement.org",
+                        "code":"RDE249",
+                        "display":"Pneumothorax Detection"
+                    },
+                    "valueQuantity": {
+                        "value": 1,
+                        "code": "enum",
+                        "system": "http://radelement.org",
+                    },
+                    "annotations": [
+                        {
+                            "resourceType": "annotation", 
+                            "id": "ROI",
+                            "code":{ 
+                                "system": "www.aim.org", 
+                                "code": "ROI",
+                                "display": "ROI"
+                            },   
+                            "valueQuantity":{
+                                "shapes":[ 
+                                    { 
+                                        "code":{ 
+                                            "system": "https://aim.org",
+                                            "code": "TwoDimensionMultiPoint",
+                                            "display": "Two Dimension Multi Point Annotation"
+                                        },
+                                        "coordinates":[
+                                            {
+                                                "x":109.20775623268698,
+                                                "coordinateIndex": 0,
+                                                "y": 276.56509695290856
+                                            },
+                                            {
+                                                "x": 144.66481994459835,
+                                                "coordinateIndex": 1,
+                                                "y": 287.9113573407202
+                                            }
+                                        ],
+                                        "line":{
+                                            "opacity": "",
+                                            "style": "",
+                                            "thickness": "",
+                                            "identifier": 1,
+                                            "color": ""
+                                        }
+                                    }, 
+                                    {
+                                        "code":{
+                                            "system": "https://aim.org",
+                                            "code": "TwoDimensionMultiPoint",
+                                            "display": "Two Dimension Multi Point Annotation"
+                                        },
+                                        "coordinates":[
+                                            {
+                                                "x":101.024353,
+                                                "coordinateIndex": 0,
+                                                "y": 233.56509695290856
+                                            },
+                                            {
+                                                "x": 134.59835,
+                                                "coordinateIndex": 1,
+                                                "y": 234.99083407202
+                                            }
+                                        ],
+                                        "line":{
+                                            "opacity": "",
+                                            "style": "",
+                                            "thickness": "",
+                                            "identifier": 2,
+                                            "color": ""
+                                        }
+                                    }
+                                ],
+                                "imageAssociation":{
+                                    "uniqueIdentifier": "2.25.36053766954864919670063347705642739563",
+                                    "imageReferenceUid": "1.2.840.113704.1.111.3788.1218052187.1565",
+                                    "studyUUID" : "1.2.752.24.7.19011385.514521",
+                                    "seriesUUID":"1.2.840.113704.1.111.1804.1218052058.19"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

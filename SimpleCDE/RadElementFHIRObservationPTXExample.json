@@ -1,0 +1,102 @@
+{
+  "resourceType": "Observation",
+  "id": "RDES44",
+
+  "status": "final",
+
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "RDES44",
+          "display": "Pnuemothorax"
+        }
+      ]
+    }
+  ],
+
+  "code": {
+    "coding": [
+      {
+        "system": "http://radelement.org",
+        "code": "RDES44",
+        "display": "Pnuemothorax"
+      }
+    ],
+    "text": "Pnuemothorax"
+  },
+
+  "component": [
+    // Pneumothorax Detection
+    {
+      "id": "RDE249",
+      "code": {
+        "system": "http://radelement.org",
+        "code": "RDE249",
+        "display": "Pneumothorax Detection"
+      },
+      "valueQuantity": {
+        "value": 1,
+        "code": "enum",
+        "system": "http://radelement.org"
+      }
+    },
+    // Pleural Separation
+    {
+      "id": "RDE250",
+      "code": {
+        "system": "http://radelement.org",
+        "code": "RDE250",
+        "display": "Pleural Separation"
+      },
+      "valueQuantity": {
+        "value": "0.3",
+        "code": "float",
+        "system": "http://radelement.org"
+      }
+    },
+    // Pneumothorax Side
+    {
+      "id": "RDE251",
+      "code": {
+        "system": "http://radelement.org",
+        "code": "RDE251",
+        "display": "Pneumothorax Side"
+      },
+      "valueQuantity": {
+        "value": "0",
+        "code": "enum",
+        "system": "http://radelement.org"
+      }
+    },
+    // Pneumothorax Size
+    {
+      "id": "RDE252",
+      "code": {
+        "system": "http://radelement.org",
+        "code": "RDE252",
+        "display": "Pneumothorax Size"
+      },
+      "valueQuantity": {
+        "value": "1",
+        "code": "enum",
+        "system": "http://radelement.org"
+      }
+    },
+    // Chest Tube
+    {
+      "id": "RDE253",
+      "code": {
+        "system": "http://radelement.org",
+        "code": "RDE253",
+        "display": "Chest Tube"
+      },
+      "valueQuantity": {
+        "value": "2",
+        "code": "enum",
+        "system": "http://radelement.org"
+      }
+    }
+  ]
+}

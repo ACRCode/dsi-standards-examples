@@ -1,0 +1,71 @@
+(0040,a040) "CONTAINER"
+(0040,a043) 
+(fffe,e000)                     //Start of metadata definition for set
+(0008,0100) "RDES44"            //RadElement Set Pneumothorax
+(0008,0102) "RDE"               //RadElement schema
+(0008,0104) "Pneumothorax"      //Display name
+(fffe,e00d)                     //End of metadata definition for set
+(fffe,e0dd)
+(0040,a050) "SEPERATE"
+(0040,a730)                     //Start of content sequence
+
+(fffe,e000)                     //Start of Pneumothorax Detection element
+(0040,a040) "NUM"
+(0040,a043)
+(fffe,e000)                     //Start of metatdata definition
+(0008,0100) "RDES44"
+(0008,0102) "RDE"
+(0008,0104) "Pneumothorax Detection"
+(fffe,e00d)                     //End of metadata definition
+(0040,a30a) 1
+(fffe,e00d)                     //End of Pneumothorax Detection element
+
+
+(fffe,e000)                     //Start of Pleural Separation element
+(0040,a040) "NUM"
+(0040,a043)
+(fffe,e000)                     //Start of definition metatdata
+(0008,0100) "RDE250"
+(0008,0102) "RDE"
+(0008,0104) "Pleural Separation"
+(fffe,e00d)                     //End of definition metada
+(0040,a30a) 0.3                 
+(fffe,e00d)                     //End of Pleural Separation element
+
+
+(fffe,e000)                     //Start of Pneumothorax Side element
+(0040,a040) "NUM"
+(0040,a043)
+(fffe,e000)                     //Start of definition metatdata
+(0008,0100) "RDE251"
+(0008,0102) "RDE"
+(0008,0104) "Pneumothorax Side"
+(fffe,e00d)                     //End of definition metada
+(0040,a30a) 0                   
+(fffe,e00d)                     //End of Pneumothorax Side element
+
+
+(fffe,e000)                     //Start of Chest Tube element
+(0040,a040) "NUM"
+(0040,a043)
+(fffe,e000)                     //Start of definition metatdata
+(0008,0100) "RDE252"
+(0008,0102) "RDE"
+(0008,0104) "Chest Tube"
+(fffe,e00d)                     //End of definition metada
+(0040,a30a) 1
+(fffe,e00d)                     //End of Chest Tube element
+
+(fffe,e000)                     //Start of Chest Tube element
+(0040,a040) "NUM"
+(0040,a043)
+(fffe,e000)                     //Start of definition metatdata
+(0008,0100) "RDE253"
+(0008,0102) "RDE"
+(0008,0104) "Chest Tube"
+(fffe,e00d)                     //End of definition metada
+(0040,a30a) 2
+(fffe,e00d)                     //End of Chest Tube element
+
+
+(fffe,e0dd)                     //End of content sequence

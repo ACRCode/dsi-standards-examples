@@ -1,0 +1,186 @@
+[    // List of Datasets
+ {   // Start of Dataset
+   "0040a040": {                     //Value Type
+     "vr": "CS",
+     "Value": ["CONTAINER"]
+   },
+   "0040a043": {                            //Concept Name Code Sequence
+     "vr": "SQ",
+     "Value": [
+       {                                    //Metadata definition for set
+         "00080100": {                      //Code Value: RadElement Set Pneumothorax Set
+           "vr": "SH",
+           "Value": ["RDES44"]
+         },
+         "00080102": {                      //Coding Scheme Designator: RadElement schema
+           "vr": "SH",
+           "Value": ["RDE"]
+         },
+         "00080104": {                      //display name
+           "vr": "LO",
+           "Value": ["Pneumothorax Set"]
+         }
+       }    
+     ]
+   },                                       
+   "0040a050": {                            // Continuity Of Content
+     "vr": "CS",
+     "Value": ["SEPERATE"]
+   },
+   "0040a730": {                         
+     "vr": "SQ",
+     "Value": [
+       {                                   //Start of Pneumothorax Detection element
+         "0004a040": {                     //Value Type
+           "vr": "CS",
+           "Value": ["NUM"]
+         },
+         "0040a043": {                     //Concept Name Code Sequence
+           "vr": "SQ",
+           "Value": [
+             {                             //Start of metatdata definition
+               "00080100": {               //Code Value
+                 "vr": "SH",
+                 "Value": ["RDE249"]
+               },
+               "00080102": {               //Coding Scheme Designator
+                 "vr": "SH",
+                 "Value": ["RDE"]
+               },
+               "00080104": {               //Code Meaning
+                 "vr": "LO",
+                 "Value": ["Pneumothorax Detection"]
+               }
+             }                             //End of metadata definition
+           ]
+         },
+         "0040a30a": {                     //Numeric Value
+           "vr": "DS",
+           "Value": [1]
+         }
+       },                                  // End of Pneumothorax Detection Item
+
+       {                                   //Start of Pleural Separation element
+         "0040a040": {                     //Value Type
+           "vr": "CS",
+           "Value": ["NUM"]
+         },
+         "0040a043": {                     //Concept Name Code Sequence
+           "vr": "SQ",
+           "Value": [
+             {                             //Start of metatdata definition
+               "00080100": {               //CodeValue
+                 "vr": "SH",
+                 "Value": ["RDE250"]
+               },
+               "00080102": {               //Coding Scheme Designator
+                 "vr": "SH",
+                 "Value": ["RDE"]
+               },
+               "00080104": {               //Code Meaning
+                 "vr": "LO",
+                 "Value": ["Pleural Separation"]
+               }
+             }                             //End of metadata definition
+           ]
+         },
+         "0040a30a": {                     //Numeric Value
+           "vr": "DS",
+           "Value": [0.3]
+         }
+       },                                  //End of Pleural Separation element
+
+       {                                   //Start of Pneumothorax Side element
+         "0040a040": {                      //Value Type
+           "vr": "CS",
+           "Value": ["NUM"]
+         },
+         "0040a043": {                      //Concept Name Code Sequence
+           "vr": "SQ",
+           "Value": [
+             {                              //Start of metatdata definition
+               "00080100": {                //Code Value:
+                 "vr": "SH",
+                 "Value": ["RDE251"]
+               },
+               "00080102": {               //Coding Scheme Designator
+                 "vr": "SH",
+                 "Value": ["RDE"]
+               },
+               "00080104": {               //Code Meaning
+                 "vr": "LO",
+                 "Value": ["Pneumothorax Side"]
+               }
+             }                             //End of metadata definition
+           ]
+         },
+         "0040a30a": {                     //Numeric Value
+           "vr": "DS",
+           "Value": [0]
+         }
+       },                                  //End of Pneumothorax Side element
+
+       {                                   //Start of Pneumothorax Size element
+         "0040a040": {                     //Value Type
+           "vr": "CS",
+           "Value": ["NUM"]
+         },
+         "0040a043": {                     //Concept Name Code Sequence
+           "vr": "SQ",
+           "Value": [
+             {                             //Start of metatdata definition
+               "00080100": {               //Code Value:
+                 "vr": "SH",
+                 "Value": ["RDE252"]
+               },
+               "00080102": {               //Coding Scheme Designator
+                 "vr": "SH",
+                 "Value": ["RDE"]
+               },
+               "00080104": {               //Code Meaning
+                 "vr": "LO",
+                 "Value": ["Pneumothorax Size"]
+               }
+             }                             //End of metadata definition
+           ]
+         },
+         "0040a30a": {                     //Numeric Value
+           "vr": "DS",
+           "Value": [1]
+         }
+       },                                  //End of Pneumothorax Size element
+
+       {                                   // Item: Start of Chest Tube element
+        "0040a040": {                      // Value Type
+          "vr": "CS",
+          "Value": ["NUM"]
+        },
+        "0040a043": {                      // Concept Name Code Sequence
+          "vr": "SQ",
+          "Value": [
+            {                              // Start of metatdata definition
+              "00080100": {                // Code Value:
+                "vr": "SH",
+                "Value": ["RDE253"]
+              },
+              "00080102": {                // Coding Scheme Designator
+                "vr": "SH",
+                "Value": ["RDE"]
+              },
+              "00080104": {                //Code Meaning
+                "vr": "LO",
+                "Value": ["Chest Tube"]
+              }
+            }                              //End of metadata definition
+          ]
+        },
+        "0040a30a": {                      // Numeric Value
+          "vr": "DS",
+          "Value": [2]
+        }
+      }                                    //End of Chest Tube element
+     ]
+   }
+ }    // End of Dataset
+]     // End of List of Datasets
+

@@ -1,0 +1,26 @@
+{
+    "id":"RDES44",
+    "name":"Pneumothorax",
+    "elements":[
+        {
+            "id":"RDE249",
+            "name":"Pneumothorax Detection",
+            "value":1
+        },
+        {
+            "id":"RDE249",
+            "name":"Pneumothorax Detection",
+            "value":1
+        },
+        {
+            "id":"RDE249",
+            "name":"Pneumothorax Detection",
+            "value":1
+        },
+        {
+            "id":"RDE249",
+            "name":"Pneumothorax Detection",
+            "value":1
+        }
+    ]
+}
