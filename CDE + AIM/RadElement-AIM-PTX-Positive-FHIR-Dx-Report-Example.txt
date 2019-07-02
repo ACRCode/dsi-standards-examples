@@ -38,7 +38,7 @@
                     "valueQuantity": {
                         "value": 1,
                         "code": "enum",
-                        "system": "http://radelement.org",
+                        "system": "http://radelement.org"
                     },
                     "annotations": [
                         {
