@@ -1,0 +1,18 @@
+{
+	"resourceType": "Observation",
+    "id": "ob6",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+	"code": {
+    	"system": "http://radelement.org",
+        "code":"RDE425",
+        "display":"Presence of chest tube",
+		"value": {
+        	"value": "Absent",
+            "code": "Enumerated",
+            "system": "http://radelement.org"
+		}
+	}
+}

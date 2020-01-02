@@ -1,0 +1,21 @@
+{
+	"resourceType": "Observation",
+    "id": "ob5",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+	"code": {
+    	"system": "http://radelement.org",
+        "code":"RDE424",
+        "display":"Pneumothorax size",
+		"value": {
+        	"value": "Medium",
+            "code": "Enumerated",
+            "system": "http://radelement.org"
+		}
+	},
+	"basedOn": {
+		"reference": "imageReference/ir2"
+	}
+}

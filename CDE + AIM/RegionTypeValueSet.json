@@ -1,0 +1,79 @@
+{
+  "resourceType": "ValueSet",
+  "id": "RegionType",
+  "meta": {
+    "profile": [
+      "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div>!-- Snipped for Brevity --></div>"
+  },
+  "url": "http://hackathon.siim.org/fhir-overview/fhir/fhir/ValueSet/RegionType",
+  "identifier": [
+    {
+      "system": "dicom",
+      "value": "(0070,0023) - Graphic Type"
+    }
+  ],
+  "version": "20200102",
+  "name": "RegionType",
+  "status": "draft",
+  "experimental": true,
+  "date": "2020-01-02",
+  "publisher": "American College of Radiology (ACR)",
+  "contact": [
+    {
+      "name": "ACR",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.acr.org"
+        }
+      ]
+    }
+  ],
+  "description": "This is an example value set that includes Graphic Types for DICOM (0070,0023) and (0070,0294).",
+  "purpose": "This value set was published to define ROIs in Imaging Reference",
+  "compose": {
+    "lockedDate": "2020-01-02",
+    "inactive": true,
+    "include": [
+      {
+        "system": "dicom",
+        "version": "PS3.3 2019e",
+        "concept": [
+          {
+            "code": "POINT",
+            "display": "POINT"
+          },
+          {
+            "code": "POLYLINE",
+            "display": "POLYLINE"
+          },
+          {
+            "code": "INTERPOLATED",
+            "display": "INTERPOLATED"
+          },
+          {
+            "code": "CIRCLE",
+            "display": "CIRCLE"
+          },
+          {
+            "code": "ELLIPSE",
+            "display": "ELLIPSE"
+          },
+          {
+            "code": "RECTANGLE",
+            "display": "RECTANGLE"
+          },
+          {
+            "code": "MULTILINE",
+            "display": "MULTILINE"
+          }
+        ]
+      }
+    ]
+  }
+}

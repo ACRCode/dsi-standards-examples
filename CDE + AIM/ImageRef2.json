@@ -1,0 +1,62 @@
+{
+	"resourceType": "ImageReference",
+    "id": "ir2",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+	"studyUid": "1.2.752.24.7.19011385.514521",
+	"seriesUid": "1.2.840.113704.1.111.1804.1218052058.19",
+	"instance": {
+		"uid": "1.2.840.113704.1.111.3788.1218052187.1565",
+		"observationUid": "2.25.36053766954864919670063347705642739564",
+		"imageRegion": {
+			"regionType": "MULTILINE",
+			"coordinateList": {
+				"2dCoordinateList" : [
+				{
+                "line":{
+                	"opacity": "",
+                    "style": "",
+                   	"thickness": "",
+                    "identifier": 1,
+                    "color": "",
+                    "coordinates":[
+                    	{
+                        "x": 109.20775623268698,
+                        "coordinateIndex": 0,
+                        "y": 276.56509695290856
+                        },
+                        {
+                        "x": 144.66481994459835,
+                        "coordinateIndex": 1,
+                        "y": 287.9113573407202
+                        }
+					]
+				}
+				},
+				{
+                "line":{
+                	"opacity": "",
+                    "style": "",
+                   	"thickness": "",
+                    "identifier": 2,
+                    "color": "",
+                    "coordinates":[
+                    	{
+                        "x": 101.024353,
+                        "coordinateIndex": 0,
+                        "y": 233.56509695290856
+                        },
+                        {
+                        "x": 134.59835,
+                        "coordinateIndex": 1,
+                        "y": 234.99083407202
+                        }
+					]
+				}
+				}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"resourceType": "Observation",
+    "id": "ob3",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+	"code": {
+    	"system": "http://radelement.org",
+        "code": "RDE422",
+        "display":"Pleural separation in mm",
+			"value": {
+            	"value": 5.7,
+                "code": "Float",
+                "system": "http://radelement.org"
+			}
+	},
+	"basedOn": {
+		"reference": "imageReference/ir1"
+	}
+}

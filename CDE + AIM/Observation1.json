@@ -1,0 +1,36 @@
+{
+	"resourceType": "Observation",
+    "id": "ob1",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+    "code": {
+    	"system": "http://radelement.org",
+        "code":"RDES44",
+        "display":"Pneumothorax"
+	},
+	"hasMember": [
+		{
+		"reference": "Observation/ob2"
+		},
+		{
+		"reference": "Observation/ob3"
+		},
+		{
+		"reference": "Observation/ob4"
+		},
+		{
+		"reference": "Observation/ob5"
+		},		
+		{
+		"reference": "Observation/ob6"
+		}
+	],
+	"derivedFrom" :{
+		"imagingStudy":{
+			"endpointAddress": "https://pacs.org/wado-rs",
+        	"identifier": "1.2.752.24.7.19011385.514521"	
+		}
+	}
+}

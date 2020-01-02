@@ -1,0 +1,27 @@
+{
+	"resourceType":"DiagnosticReport",
+	"id": "58427",
+    "status":"final",
+    "code":{
+		"system": "http:loinc.org",
+		"code": "36643-5",
+        "text": "XR Chest 2 Views"
+    },
+    "subject":{
+       	"display": "Joe Siim",
+       	"reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+    "performer":{
+       	"display": "Hospital Department",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Organization/siim"
+    },
+    "result":{
+		"reference": "Observation/ob1",
+		"display": "Pneumothrax Case"
+	},
+	"imagingStudy":{
+		"endpointAddress": "https://pacs.org/wado-rs",
+       	"identifier": "1.2.752.24.7.19011385.514521"
+	},
+	"conclusion":"This is a sample report that contains imaging observations as well as annotations formed with AIM"
+}
