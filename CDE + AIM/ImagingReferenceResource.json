@@ -42,7 +42,7 @@
     }
   ],
   "description": "Base StructureDefinition for ImagingReference Resource",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.0.0",
   "mapping": [
     {
       "identity": "rim",
