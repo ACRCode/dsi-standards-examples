@@ -10,7 +10,7 @@
     "status": "generated",
     "div": "<div>!-- Snipped for Brevity --></div>"
   },
-  "url": "http://hackathon.siim.org/fhir-overview/fhir/fhir/ValueSet/RegionType",
+  "url": "http://hackathon.siim.org/fhir-overview/fhir/ValueSet/RegionType",
   "identifier": [
     {
       "system": "dicom",
