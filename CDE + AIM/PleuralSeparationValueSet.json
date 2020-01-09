@@ -1,0 +1,1655 @@
+{
+  "resourceType": "ValueSet",
+  "id": "RDE422",
+  "meta": {
+    "profile": [
+      "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div>!-- Snipped for Brevity --></div>"
+  },
+  "url": "http://hackathon.siim.org/fhir-overview/fhir/ValueSet/RDE422",
+  "identifier": [
+    {
+      "system": "https://www.radelement.org/",
+      "value": "Pleural separation"
+    }
+  ],
+  "version": "20200102",
+  "name": "RDE422",
+  "status": "draft",
+  "experimental": true,
+  "date": "2020-01-02",
+  "publisher": "American College of Radiology (ACR)",
+  "contact": [
+    {
+      "name": "ACR",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.acr.org"
+        }
+      ]
+    }
+  ],
+  "description": "This is an example value set that includes Common Data elements and Macros for Pneumothorax.",
+  "purpose": "This value set was published to define the findings of Pneumothorax",
+  "compose": {
+    "lockedDate": "2020-01-02",
+    "inactive": true,
+    "include": [
+      {
+        "system": "https://www.radelement.org/",
+        "version": "1.0",
+        "concept": [
+          {
+            "code": "0",
+            "display": "0 mm"
+          },
+          {
+            "code": "0.1",
+            "display": "0.1 mm"
+          },
+          {
+            "code": "0.2",
+            "display": "0.2 mm"
+          },
+		  {
+            "code": "0.3",
+            "display": "0.3 mm"
+          },
+		  {
+            "code": "0.4",
+            "display": "0.4 mm"
+          },
+		  {
+            "code": "0.5",
+            "display": "0.5 mm"
+          },
+		  {
+            "code": "0.6",
+            "display": "0.6 mm"
+          },
+		  {
+            "code": "0.7",
+            "display": "0.7 mm"
+          },
+		  {
+            "code": "0.8",
+            "display": "0.8 mm"
+          },
+		  {
+            "code": "0.9",
+            "display": "0.9 mm"
+          },
+		  {
+            "code": "1",
+            "display": "1 mm"
+          },
+		  {
+            "code": "1.1",
+            "display": "1.1 mm"
+          },
+		  {
+            "code": "1.2",
+            "display": "1.2 mm"
+          },
+          {
+            "code": "1.3",
+            "display": "1.3 mm"
+          },
+          {
+            "code": "1.4",
+            "display": "1.4 mm"
+          },
+		  {
+            "code": "1.5",
+            "display": "1.5 mm"
+          },
+		  {
+            "code": "1.6",
+            "display": "1.6 mm"
+          },
+		  {
+            "code": "1.7",
+            "display": "1.7 mm"
+          },
+		  {
+            "code": "1.8",
+            "display": "1.8 mm"
+          },
+		  {
+            "code": "1.9",
+            "display": "1.9 mm"
+          },
+		  {
+            "code": "2",
+            "display": "2 mm"
+          },
+		  {
+            "code": "2.1",
+            "display": "2.1 mm"
+          },
+		  {
+            "code": "2.2",
+            "display": "2.2 mm"
+          },
+		  {
+            "code": "2.3",
+            "display": "2.3 mm"
+          },
+		  {
+            "code": "2.4",
+            "display": "2.4 mm"
+          },
+          {
+            "code": "2.5",
+            "display": "2.5 mm"
+          },
+          {
+            "code": "2.6",
+            "display": "2.6 mm"
+          },
+		  {
+            "code": "2.7",
+            "display": "2.7 mm"
+          },
+		  {
+            "code": "2.8",
+            "display": "2.8 mm"
+          },
+		  {
+            "code": "2.9",
+            "display": "2.9 mm"
+          },
+		  {
+            "code": "3",
+            "display": "3 mm"
+          },
+		  {
+            "code": "3.1",
+            "display": "3.1 mm"
+          },
+		  {
+            "code": "3.2",
+            "display": "3.2 mm"
+          },
+		  {
+            "code": "3.3",
+            "display": "3.3 mm"
+          },
+		  {
+            "code": "3.4",
+            "display": "3.4 mm"
+          },
+		  {
+            "code": "3.5",
+            "display": "3.5 mm"
+          },
+		  {
+            "code": "3.6",
+            "display": "3.6 mm"
+          },
+          {
+            "code": "3.7",
+            "display": "3.7 mm"
+          },
+          {
+            "code": "3.8",
+            "display": "3.8 mm"
+          },
+		  {
+            "code": "3.9",
+            "display": "3.9 mm"
+          },
+		  {
+            "code": "4",
+            "display": "4 mm"
+          },
+		  {
+            "code": "4.1",
+            "display": "4.1 mm"
+          },
+		  {
+            "code": "4.2",
+            "display": "4.2 mm"
+          },
+		  {
+            "code": "4.3",
+            "display": "4.3 mm"
+          },
+		  {
+            "code": "4.4",
+            "display": "4.4 mm"
+          },
+		  {
+            "code": "4.5",
+            "display": "4.5 mm"
+          },
+		  {
+            "code": "4.6",
+            "display": "4.6 mm"
+          },
+		  {
+            "code": "4.7",
+            "display": "4.7 mm"
+          },
+		  {
+            "code": "4.8",
+            "display": "4.8 mm"
+          },
+          {
+            "code": "4.9",
+            "display": "4.9 mm"
+          },
+          {
+            "code": "5",
+            "display": "5 mm"
+          },
+		  {
+            "code": "5.1",
+            "display": "5.1 mm"
+          },
+		  {
+            "code": "5.2",
+            "display": "5.2 mm"
+          },
+		  {
+            "code": "5.3",
+            "display": "5.3 mm"
+          },
+		  {
+            "code": "5.4",
+            "display": "5.4 mm"
+          },
+		  {
+            "code": "5.5",
+            "display": "5.5 mm"
+          },
+		  {
+            "code": "5.6",
+            "display": "5.6 mm"
+          },
+		  {
+            "code": "5.7",
+            "display": "5.7 mm"
+          },
+		  {
+            "code": "5.8",
+            "display": "5.8 mm"
+          },
+		  {
+            "code": "5.9",
+            "display": "5.9 mm"
+          },
+		  {
+            "code": "6",
+            "display": "6 mm"
+          },
+          {
+            "code": "6.1",
+            "display": "6.1 mm"
+          },
+          {
+            "code": "6.2",
+            "display": "6.2 mm"
+          },
+		  {
+            "code": "6.3",
+            "display": "6.3 mm"
+          },
+		  {
+            "code": "6.4",
+            "display": "6.4 mm"
+          },
+		  {
+            "code": "6.5",
+            "display": "6.5 mm"
+          },
+		  {
+            "code": "6.6",
+            "display": "6.6 mm"
+          },
+		  {
+            "code": "6.7",
+            "display": "6.7 mm"
+          },
+		  {
+            "code": "6.8",
+            "display": "6.8 mm"
+          },
+		  {
+            "code": "6.9",
+            "display": "6.9 mm"
+          },
+		  {
+            "code": "7",
+            "display": "7 mm"
+          },
+		  {
+            "code": "7.1",
+            "display": "7.1 mm"
+          },
+		  {
+            "code": "7.2",
+            "display": "7.2 mm"
+          },
+		  {
+            "code": "7.3",
+            "display": "7.3 mm"
+          },
+		  {
+            "code": "7.4",
+            "display": "7.4 mm"
+          },
+		  {
+            "code": "7.5",
+            "display": "7.5 mm"
+          },
+		  {
+            "code": "7.6",
+            "display": "7.6 mm"
+          },
+		  {
+            "code": "7.7",
+            "display": "7.7 mm"
+          },
+		  {
+            "code": "7.8",
+            "display": "7.8 mm"
+          },
+		  {
+            "code": "7.9",
+            "display": "7.9 mm"
+          },
+		  {
+            "code": "8",
+            "display": "8 mm"
+          },
+          {
+            "code": "8.1",
+            "display": "8.1 mm"
+          },
+          {
+            "code": "8.2",
+            "display": "8.2 mm"
+          },
+		  {
+            "code": "8.3",
+            "display": "8.3 mm"
+          },
+		  {
+            "code": "8.4",
+            "display": "8.4 mm"
+          },
+		  {
+            "code": "8.5",
+            "display": "8.5 mm"
+          },
+		  {
+            "code": "8.6",
+            "display": "8.6 mm"
+          },
+		  {
+            "code": "8.7",
+            "display": "8.7 mm"
+          },
+		  {
+            "code": "8.8",
+            "display": "8.8 mm"
+          },
+		  {
+            "code": "8.9",
+            "display": "8.9 mm"
+          },
+		  {
+            "code": "9",
+            "display": "9 mm"
+          },
+		  {
+            "code": "9.1",
+            "display": "9.1 mm"
+          },
+		  {
+            "code": "9.2",
+            "display": "9.2 mm"
+          },
+		  {
+            "code": "9.3",
+            "display": "9.3 mm"
+          },
+		  {
+            "code": "9.4",
+            "display": "9.4 mm"
+          },
+		  {
+            "code": "9.5",
+            "display": "9.5 mm"
+          },
+		  {
+            "code": "9.6",
+            "display": "9.6 mm"
+          },
+		  {
+            "code": "9.7",
+            "display": "9.7 mm"
+          },
+		  {
+            "code": "9.8",
+            "display": "9.8 mm"
+          },
+		  {
+            "code": "9.9",
+            "display": "9.9 mm"
+          },
+		  {
+            "code": "10",
+            "display": "10 mm"
+          },
+          {
+            "code": "10.1",
+            "display": "10.1 mm"
+          },
+          {
+            "code": "10.2",
+            "display": "10.2 mm"
+          },
+		  {
+            "code": "10.3",
+            "display": "10.3 mm"
+          },
+		  {
+            "code": "10.4",
+            "display": "10.4 mm"
+          },
+		  {
+            "code": "10.5",
+            "display": "10.5 mm"
+          },
+		  {
+            "code": "10.6",
+            "display": "10.6 mm"
+          },
+		  {
+            "code": "10.7",
+            "display": "10.7 mm"
+          },
+		  {
+            "code": "10.8",
+            "display": "10.8 mm"
+          },
+		  {
+            "code": "10.9",
+            "display": "10.9 mm"
+          },
+		  {
+            "code": "11",
+            "display": "11 mm"
+          },
+		  {
+            "code": "11.1",
+            "display": "11.1 mm"
+          },
+		  {
+            "code": "11.2",
+            "display": "11.2 mm"
+          },
+          {
+            "code": "11.3",
+            "display": "11.3 mm"
+          },
+          {
+            "code": "11.4",
+            "display": "11.4 mm"
+          },
+		  {
+            "code": "11.5",
+            "display": "11.5 mm"
+          },
+		  {
+            "code": "11.6",
+            "display": "11.6 mm"
+          },
+		  {
+            "code": "11.7",
+            "display": "11.7 mm"
+          },
+		  {
+            "code": "11.8",
+            "display": "11.8 mm"
+          },
+		  {
+            "code": "11.9",
+            "display": "11.9 mm"
+          },
+		  {
+            "code": "12",
+            "display": "12 mm"
+          },
+		  {
+            "code": "12.1",
+            "display": "12.1 mm"
+          },
+		  {
+            "code": "12.2",
+            "display": "12.2 mm"
+          },
+		  {
+            "code": "12.3",
+            "display": "12.3 mm"
+          },
+		  {
+            "code": "12.4",
+            "display": "12.4 mm"
+          },
+          {
+            "code": "12.5",
+            "display": "12.5 mm"
+          },
+          {
+            "code": "12.6",
+            "display": "12.6 mm"
+          },
+		  {
+            "code": "12.7",
+            "display": "12.7 mm"
+          },
+		  {
+            "code": "12.8",
+            "display": "12.8 mm"
+          },
+		  {
+            "code": "12.9",
+            "display": "12.9 mm"
+          },
+		  {
+            "code": "13",
+            "display": "13 mm"
+          },
+		  {
+            "code": "13.1",
+            "display": "13.1 mm"
+          },
+		  {
+            "code": "13.2",
+            "display": "13.2 mm"
+          },
+		  {
+            "code": "13.3",
+            "display": "13.3 mm"
+          },
+		  {
+            "code": "13.4",
+            "display": "13.4 mm"
+          },
+		  {
+            "code": "13.5",
+            "display": "13.5 mm"
+          },
+		  {
+            "code": "13.6",
+            "display": "13.6 mm"
+          },
+          {
+            "code": "13.7",
+            "display": "13.7 mm"
+          },
+          {
+            "code": "13.8",
+            "display": "13.8 mm"
+          },
+		  {
+            "code": "13.9",
+            "display": "13.9 mm"
+          },
+		  {
+            "code": "14",
+            "display": "14 mm"
+          },
+		  {
+            "code": "14.1",
+            "display": "14.1 mm"
+          },
+		  {
+            "code": "14.2",
+            "display": "14.2 mm"
+          },
+		  {
+            "code": "14.3",
+            "display": "14.3 mm"
+          },
+		  {
+            "code": "14.4",
+            "display": "14.4 mm"
+          },
+		  {
+            "code": "14.5",
+            "display": "14.5 mm"
+          },
+		  {
+            "code": "14.6",
+            "display": "14.6 mm"
+          },
+		  {
+            "code": "14.7",
+            "display": "14.7 mm"
+          },
+		  {
+            "code": "14.8",
+            "display": "14.8 mm"
+          },
+          {
+            "code": "14.9",
+            "display": "14.9 mm"
+          },
+          {
+            "code": "15",
+            "display": "15 mm"
+          },
+		  {
+            "code": "15.1",
+            "display": "15.1 mm"
+          },
+		  {
+            "code": "15.2",
+            "display": "15.2 mm"
+          },
+		  {
+            "code": "15.3",
+            "display": "15.3 mm"
+          },
+		  {
+            "code": "15.4",
+            "display": "15.4 mm"
+          },
+		  {
+            "code": "15.5",
+            "display": "15.5 mm"
+          },
+		  {
+            "code": "15.6",
+            "display": "15.6 mm"
+          },
+		  {
+            "code": "15.7",
+            "display": "15.7 mm"
+          },
+		  {
+            "code": "15.8",
+            "display": "15.8 mm"
+          },
+		  {
+            "code": "15.9",
+            "display": "15.9 mm"
+          },
+		  {
+            "code": "16",
+            "display": "16 mm"
+          },
+          {
+            "code": "16.1",
+            "display": "16.1 mm"
+          },
+          {
+            "code": "16.2",
+            "display": "16.2 mm"
+          },
+		  {
+            "code": "16.3",
+            "display": "16.3 mm"
+          },
+		  {
+            "code": "16.4",
+            "display": "16.4 mm"
+          },
+		  {
+            "code": "16.5",
+            "display": "16.5 mm"
+          },
+		  {
+            "code": "16.6",
+            "display": "16.6 mm"
+          },
+		  {
+            "code": "16.7",
+            "display": "16.7 mm"
+          },
+		  {
+            "code": "16.8",
+            "display": "16.8 mm"
+          },
+		  {
+            "code": "16.9",
+            "display": "16.9 mm"
+          },
+		  {
+            "code": "17",
+            "display": "17 mm"
+          },
+		  {
+            "code": "17.1",
+            "display": "17.1 mm"
+          },
+		  {
+            "code": "17.2",
+            "display": "17.2 mm"
+          },
+		  {
+            "code": "17.3",
+            "display": "17.3 mm"
+          },
+		  {
+            "code": "17.4",
+            "display": "17.4 mm"
+          },
+		  {
+            "code": "17.5",
+            "display": "17.5 mm"
+          },
+		  {
+            "code": "17.6",
+            "display": "17.6 mm"
+          },
+		  {
+            "code": "17.7",
+            "display": "17.7 mm"
+          },
+		  {
+            "code": "17.8",
+            "display": "17.8 mm"
+          },
+		  {
+            "code": "17.9",
+            "display": "17.9 mm"
+          },
+		  {
+            "code": "18",
+            "display": "18 mm"
+          },
+          {
+            "code": "18.1",
+            "display": "18.1 mm"
+          },
+          {
+            "code": "18.2",
+            "display": "18.2 mm"
+          },
+		  {
+            "code": "18.3",
+            "display": "18.3 mm"
+          },
+		  {
+            "code": "18.4",
+            "display": "18.4 mm"
+          },
+		  {
+            "code": "18.5",
+            "display": "18.5 mm"
+          },
+		  {
+            "code": "18.6",
+            "display": "18.6 mm"
+          },
+		  {
+            "code": "18.7",
+            "display": "18.7 mm"
+          },
+		  {
+            "code": "18.8",
+            "display": "18.8 mm"
+          },
+		  {
+            "code": "18.9",
+            "display": "18.9 mm"
+          },
+		  {
+            "code": "19",
+            "display": "19 mm"
+          },
+		  {
+            "code": "19.1",
+            "display": "19.1 mm"
+          },
+		  {
+            "code": "19.2",
+            "display": "19.2 mm"
+          },
+		  {
+            "code": "19.3",
+            "display": "19.3 mm"
+          },
+		  {
+            "code": "19.4",
+            "display": "19.4 mm"
+          },
+		  {
+            "code": "19.5",
+            "display": "19.5 mm"
+          },
+		  {
+            "code": "19.6",
+            "display": "19.6 mm"
+          },
+		  {
+            "code": "19.7",
+            "display": "19.7 mm"
+          },
+		  {
+            "code": "19.8",
+            "display": "19.8 mm"
+          },
+		  {
+            "code": "19.9",
+            "display": "19.9 mm"
+          },
+		  {
+            "code": "20",
+            "display": "20 mm"
+          },
+          {
+            "code": "20.1",
+            "display": "20.1 mm"
+          },
+          {
+            "code": "20.2",
+            "display": "20.2 mm"
+          },
+		  {
+            "code": "20.3",
+            "display": "20.3 mm"
+          },
+		  {
+            "code": "20.4",
+            "display": "20.4 mm"
+          },
+		  {
+            "code": "20.5",
+            "display": "20.5 mm"
+          },
+		  {
+            "code": "20.6",
+            "display": "20.6 mm"
+          },
+		  {
+            "code": "20.7",
+            "display": "20.7 mm"
+          },
+		  {
+            "code": "20.8",
+            "display": "20.8 mm"
+          },
+		  {
+            "code": "20.9",
+            "display": "20.9 mm"
+          },
+		  {
+            "code": "21",
+            "display": "21 mm"
+          },
+		  {
+            "code": "21.1",
+            "display": "21.1 mm"
+          },
+		  {
+            "code": "21.2",
+            "display": "21.2 mm"
+          },
+          {
+            "code": "21.3",
+            "display": "21.3 mm"
+          },
+          {
+            "code": "21.4",
+            "display": "21.4 mm"
+          },
+		  {
+            "code": "21.5",
+            "display": "21.5 mm"
+          },
+		  {
+            "code": "21.6",
+            "display": "21.6 mm"
+          },
+		  {
+            "code": "21.7",
+            "display": "21.7 mm"
+          },
+		  {
+            "code": "21.8",
+            "display": "21.8 mm"
+          },
+		  {
+            "code": "21.9",
+            "display": "21.9 mm"
+          },
+		  {
+            "code": "22",
+            "display": "22 mm"
+          },
+		  {
+            "code": "22.1",
+            "display": "22.1 mm"
+          },
+		  {
+            "code": "22.2",
+            "display": "22.2 mm"
+          },
+		  {
+            "code": "22.3",
+            "display": "22.3 mm"
+          },
+		  {
+            "code": "22.4",
+            "display": "22.4 mm"
+          },
+          {
+            "code": "22.5",
+            "display": "22.5 mm"
+          },
+          {
+            "code": "22.6",
+            "display": "22.6 mm"
+          },
+		  {
+            "code": "22.7",
+            "display": "22.7 mm"
+          },
+		  {
+            "code": "22.8",
+            "display": "22.8 mm"
+          },
+		  {
+            "code": "22.9",
+            "display": "22.9 mm"
+          },
+		  {
+            "code": "23",
+            "display": "23 mm"
+          },
+		  {
+            "code": "23.1",
+            "display": "23.1 mm"
+          },
+		  {
+            "code": "23.2",
+            "display": "23.2 mm"
+          },
+		  {
+            "code": "23.3",
+            "display": "23.3 mm"
+          },
+		  {
+            "code": "23.4",
+            "display": "23.4 mm"
+          },
+		  {
+            "code": "23.5",
+            "display": "23.5 mm"
+          },
+		  {
+            "code": "23.6",
+            "display": "23.6 mm"
+          },
+          {
+            "code": "23.7",
+            "display": "23.7 mm"
+          },
+          {
+            "code": "23.8",
+            "display": "23.8 mm"
+          },
+		  {
+            "code": "23.9",
+            "display": "23.9 mm"
+          },
+		  {
+            "code": "24",
+            "display": "24 mm"
+          },
+		  {
+            "code": "24.1",
+            "display": "24.1 mm"
+          },
+		  {
+            "code": "24.2",
+            "display": "24.2 mm"
+          },
+		  {
+            "code": "24.3",
+            "display": "24.3 mm"
+          },
+		  {
+            "code": "24.4",
+            "display": "24.4 mm"
+          },
+		  {
+            "code": "24.5",
+            "display": "24.5 mm"
+          },
+		  {
+            "code": "24.6",
+            "display": "24.6 mm"
+          },
+		  {
+            "code": "24.7",
+            "display": "24.7 mm"
+          },
+		  {
+            "code": "24.8",
+            "display": "24.8 mm"
+          },
+          {
+            "code": "24.9",
+            "display": "24.9 mm"
+          },
+          {
+            "code": "25",
+            "display": "25 mm"
+          },
+		  {
+            "code": "25.1",
+            "display": "25.1 mm"
+          },
+		  {
+            "code": "25.2",
+            "display": "25.2 mm"
+          },
+		  {
+            "code": "25.3",
+            "display": "25.3 mm"
+          },
+		  {
+            "code": "25.4",
+            "display": "25.4 mm"
+          },
+		  {
+            "code": "25.5",
+            "display": "25.5 mm"
+          },
+		  {
+            "code": "25.6",
+            "display": "25.6 mm"
+          },
+		  {
+            "code": "25.7",
+            "display": "25.7 mm"
+          },
+		  {
+            "code": "25.8",
+            "display": "25.8 mm"
+          },
+		  {
+            "code": "25.9",
+            "display": "25.9 mm"
+          },
+		  {
+            "code": "26",
+            "display": "26 mm"
+          },
+          {
+            "code": "26.1",
+            "display": "26.1 mm"
+          },
+          {
+            "code": "26.2",
+            "display": "26.2 mm"
+          },
+		  {
+            "code": "26.3",
+            "display": "26.3 mm"
+          },
+		  {
+            "code": "26.4",
+            "display": "26.4 mm"
+          },
+		  {
+            "code": "26.5",
+            "display": "26.5 mm"
+          },
+		  {
+            "code": "26.6",
+            "display": "26.6 mm"
+          },
+		  {
+            "code": "26.7",
+            "display": "26.7 mm"
+          },
+		  {
+            "code": "26.8",
+            "display": "26.8 mm"
+          },
+		  {
+            "code": "26.9",
+            "display": "26.9 mm"
+          },
+		  {
+            "code": "27",
+            "display": "27 mm"
+          },
+		  {
+            "code": "27.1",
+            "display": "27.1 mm"
+          },
+		  {
+            "code": "27.2",
+            "display": "27.2 mm"
+          },
+		  {
+            "code": "27.3",
+            "display": "27.3 mm"
+          },
+		  {
+            "code": "27.4",
+            "display": "27.4 mm"
+          },
+		  {
+            "code": "27.5",
+            "display": "27.5 mm"
+          },
+		  {
+            "code": "27.6",
+            "display": "27.6 mm"
+          },
+		  {
+            "code": "27.7",
+            "display": "27.7 mm"
+          },
+		  {
+            "code": "27.8",
+            "display": "27.8 mm"
+          },
+		  {
+            "code": "27.9",
+            "display": "27.9 mm"
+          },
+		  {
+            "code": "28",
+            "display": "28 mm"
+          },
+          {
+            "code": "28.1",
+            "display": "28.1 mm"
+          },
+          {
+            "code": "28.2",
+            "display": "28.2 mm"
+          },
+		  {
+            "code": "28.3",
+            "display": "28.3 mm"
+          },
+		  {
+            "code": "28.4",
+            "display": "28.4 mm"
+          },
+		  {
+            "code": "28.5",
+            "display": "28.5 mm"
+          },
+		  {
+            "code": "28.6",
+            "display": "28.6 mm"
+          },
+		  {
+            "code": "28.7",
+            "display": "28.7 mm"
+          },
+		  {
+            "code": "28.8",
+            "display": "28.8 mm"
+          },
+		  {
+            "code": "28.9",
+            "display": "28.9 mm"
+          },
+		  {
+            "code": "29",
+            "display": "29 mm"
+          },
+		  {
+            "code": "29.1",
+            "display": "29.1 mm"
+          },
+		  {
+            "code": "29.2",
+            "display": "29.2 mm"
+          },
+		  {
+            "code": "29.3",
+            "display": "29.3 mm"
+          },
+		  {
+            "code": "29.4",
+            "display": "29.4 mm"
+          },
+		  {
+            "code": "29.5",
+            "display": "29.5 mm"
+          },
+		  {
+            "code": "29.6",
+            "display": "29.6 mm"
+          },
+		  {
+            "code": "29.7",
+            "display": "29.7 mm"
+          },
+		  {
+            "code": "29.8",
+            "display": "29.8 mm"
+          },
+		  {
+            "code": "29.9",
+            "display": "29.9 mm"
+          },
+		  {
+            "code": "30",
+            "display": "30 mm"
+          },
+          {
+            "code": "30.1",
+            "display": "30.1 mm"
+          },
+          {
+            "code": "30.2",
+            "display": "30.2 mm"
+          },
+		  {
+            "code": "30.3",
+            "display": "30.3 mm"
+          },
+		  {
+            "code": "30.4",
+            "display": "30.4 mm"
+          },
+		  {
+            "code": "30.5",
+            "display": "30.5 mm"
+          },
+		  {
+            "code": "30.6",
+            "display": "30.6 mm"
+          },
+		  {
+            "code": "30.7",
+            "display": "30.7 mm"
+          },
+		  {
+            "code": "30.8",
+            "display": "30.8 mm"
+          },
+		  {
+            "code": "30.9",
+            "display": "30.9 mm"
+          },
+		  {
+            "code": "31",
+            "display": "31 mm"
+          },
+		  {
+            "code": "31.1",
+            "display": "31.1 mm"
+          },
+		  {
+            "code": "31.2",
+            "display": "31.2 mm"
+          },
+          {
+            "code": "31.3",
+            "display": "31.3 mm"
+          },
+          {
+            "code": "31.4",
+            "display": "31.4 mm"
+          },
+		  {
+            "code": "31.5",
+            "display": "31.5 mm"
+          },
+		  {
+            "code": "31.6",
+            "display": "31.6 mm"
+          },
+		  {
+            "code": "31.7",
+            "display": "31.7 mm"
+          },
+		  {
+            "code": "31.8",
+            "display": "31.8 mm"
+          },
+		  {
+            "code": "31.9",
+            "display": "31.9 mm"
+          },
+		  {
+            "code": "32",
+            "display": "32 mm"
+          },
+		  {
+            "code": "32.1",
+            "display": "32.1 mm"
+          },
+		  {
+            "code": "32.2",
+            "display": "32.2 mm"
+          },
+		  {
+            "code": "32.3",
+            "display": "32.3 mm"
+          },
+		  {
+            "code": "32.4",
+            "display": "32.4 mm"
+          },
+          {
+            "code": "32.5",
+            "display": "32.5 mm"
+          },
+          {
+            "code": "32.6",
+            "display": "32.6 mm"
+          },
+		  {
+            "code": "32.7",
+            "display": "32.7 mm"
+          },
+		  {
+            "code": "32.8",
+            "display": "32.8 mm"
+          },
+		  {
+            "code": "32.9",
+            "display": "32.9 mm"
+          },
+		  {
+            "code": "33",
+            "display": "33 mm"
+          },
+		  {
+            "code": "33.1",
+            "display": "33.1 mm"
+          },
+		  {
+            "code": "33.2",
+            "display": "33.2 mm"
+          },
+		  {
+            "code": "33.3",
+            "display": "33.3 mm"
+          },
+		  {
+            "code": "33.4",
+            "display": "33.4 mm"
+          },
+		  {
+            "code": "33.5",
+            "display": "33.5 mm"
+          },
+		  {
+            "code": "33.6",
+            "display": "33.6 mm"
+          },
+          {
+            "code": "33.7",
+            "display": "33.7 mm"
+          },
+          {
+            "code": "33.8",
+            "display": "33.8 mm"
+          },
+		  {
+            "code": "33.9",
+            "display": "33.9 mm"
+          },
+		  {
+            "code": "34",
+            "display": "34 mm"
+          },
+		  {
+            "code": "34.1",
+            "display": "34.1 mm"
+          },
+		  {
+            "code": "34.2",
+            "display": "34.2 mm"
+          },
+		  {
+            "code": "34.3",
+            "display": "34.3 mm"
+          },
+		  {
+            "code": "34.4",
+            "display": "34.4 mm"
+          },
+		  {
+            "code": "34.5",
+            "display": "34.5 mm"
+          },
+		  {
+            "code": "34.6",
+            "display": "34.6 mm"
+          },
+		  {
+            "code": "34.7",
+            "display": "34.7 mm"
+          },
+		  {
+            "code": "34.8",
+            "display": "34.8 mm"
+          },
+          {
+            "code": "34.9",
+            "display": "34.9 mm"
+          },
+          {
+            "code": "35",
+            "display": "35 mm"
+          },
+		  {
+            "code": "35.1",
+            "display": "35.1 mm"
+          },
+		  {
+            "code": "35.2",
+            "display": "35.2 mm"
+          },
+		  {
+            "code": "35.3",
+            "display": "35.3 mm"
+          },
+		  {
+            "code": "35.4",
+            "display": "35.4 mm"
+          },
+		  {
+            "code": "35.5",
+            "display": "35.5 mm"
+          },
+		  {
+            "code": "35.6",
+            "display": "35.6 mm"
+          },
+		  {
+            "code": "35.7",
+            "display": "35.7 mm"
+          },
+		  {
+            "code": "35.8",
+            "display": "35.8 mm"
+          },
+		  {
+            "code": "35.9",
+            "display": "35.9 mm"
+          },
+		  {
+            "code": "36",
+            "display": "36 mm"
+          },
+          {
+            "code": "36.1",
+            "display": "36.1 mm"
+          },
+          {
+            "code": "36.2",
+            "display": "36.2 mm"
+          },
+		  {
+            "code": "36.3",
+            "display": "36.3 mm"
+          },
+		  {
+            "code": "36.4",
+            "display": "36.4 mm"
+          },
+		  {
+            "code": "36.5",
+            "display": "36.5 mm"
+          },
+		  {
+            "code": "36.6",
+            "display": "36.6 mm"
+          },
+		  {
+            "code": "36.7",
+            "display": "36.7 mm"
+          },
+		  {
+            "code": "36.8",
+            "display": "36.8 mm"
+          },
+		  {
+            "code": "36.9",
+            "display": "36.9 mm"
+          },
+		  {
+            "code": "37",
+            "display": "37 mm"
+          },
+		  {
+            "code": "37.1",
+            "display": "37.1 mm"
+          },
+		  {
+            "code": "37.2",
+            "display": "37.2 mm"
+          },
+		  {
+            "code": "37.3",
+            "display": "37.3 mm"
+          },
+		  {
+            "code": "37.4",
+            "display": "37.4 mm"
+          },
+		  {
+            "code": "37.5",
+            "display": "37.5 mm"
+          },
+		  {
+            "code": "37.6",
+            "display": "37.6 mm"
+          },
+		  {
+            "code": "37.7",
+            "display": "37.7 mm"
+          },
+		  {
+            "code": "37.8",
+            "display": "37.8 mm"
+          },
+		  {
+            "code": "37.9",
+            "display": "37.9 mm"
+          },
+		  {
+            "code": "38",
+            "display": "38 mm"
+          },
+          {
+            "code": "38.1",
+            "display": "38.1 mm"
+          },
+          {
+            "code": "38.2",
+            "display": "38.2 mm"
+          },
+		  {
+            "code": "38.3",
+            "display": "38.3 mm"
+          },
+		  {
+            "code": "38.4",
+            "display": "38.4 mm"
+          },
+		  {
+            "code": "38.5",
+            "display": "38.5 mm"
+          },
+		  {
+            "code": "38.6",
+            "display": "38.6 mm"
+          },
+		  {
+            "code": "38.7",
+            "display": "38.7 mm"
+          },
+		  {
+            "code": "38.8",
+            "display": "38.8 mm"
+          },
+		  {
+            "code": "38.9",
+            "display": "38.9 mm"
+          },
+		  {
+            "code": "39",
+            "display": "39 mm"
+          },
+		  {
+            "code": "39.1",
+            "display": "39.1 mm"
+          },
+		  {
+            "code": "39.2",
+            "display": "39.2 mm"
+          },
+		  {
+            "code": "39.3",
+            "display": "39.3 mm"
+          },
+		  {
+            "code": "39.4",
+            "display": "39.4 mm"
+          },
+		  {
+            "code": "39.5",
+            "display": "39.5 mm"
+          },
+		  {
+            "code": "39.6",
+            "display": "39.6 mm"
+          },
+		  {
+            "code": "39.7",
+            "display": "39.7 mm"
+          },
+		  {
+            "code": "39.8",
+            "display": "39.8 mm"
+          },
+		  {
+            "code": "39.9",
+            "display": "39.9 mm"
+          },
+		  {
+            "code": "40",
+            "display": "40 mm"
+          }
+        ]
+      }
+    ]
+  }
+}

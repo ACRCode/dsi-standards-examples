@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "AcrDsiPneumothorax",
+  "meta": {
+    "profile": [
+      "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div>!-- Snipped for Brevity --></div>"
+  },
+  "url": "http://hackathon.siim.org/fhir-overview/fhir/ValueSet/AcrDsiPneumothorax",
+  "identifier": [
+    {
+      "system": "https://www.radelement.org/",
+      "value": "Pneumothorax"
+    }
+  ],
+  "version": "20200102",
+  "name": "AcrDsiPneumothorax",
+  "status": "draft",
+  "experimental": true,
+  "date": "2020-01-02",
+  "publisher": "American College of Radiology (ACR)",
+  "contact": [
+    {
+      "name": "ACR",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.acr.org"
+        }
+      ]
+    }
+  ],
+  "description": "This is an example value set that includes Common Data elements and Macros for Pneumothorax.",
+  "purpose": "This value set was published to define the findings of Pneumothorax",
+  "compose": {
+    "lockedDate": "2020-01-02",
+    "inactive": true,
+    "include": [
+      {
+        "system": "https://www.radelement.org/",
+        "version": "1.0",
+        "concept": [
+          {
+            "code": "RDES44",
+            "display": "Pneumothorax"
+          }
+        ]
+      }
+    ]
+  }
+}
