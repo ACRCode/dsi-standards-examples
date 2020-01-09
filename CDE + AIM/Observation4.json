@@ -6,13 +6,19 @@
         "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
     },
 	"code": {
-    	"system": "http://radelement.org",
-    	"code":"RDE423",
-        "display":"Pneumothorax side",
-		"value": {
-        	"value": "Left",
-            "code": "Enumerated",
-            "system": "http://radelement.org"
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE423",
+	        "display":"Pneumothorax side"
+		}
+	},
+	"value": {
+	     	"valueCodeableConcept": {
+				"coding": {
+					"code": "Left",
+	            	"system": "http://radelement.org",
+					"display": "Left"
+			}
 		}
 	}
 }

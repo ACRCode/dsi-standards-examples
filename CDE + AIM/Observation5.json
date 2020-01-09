@@ -6,13 +6,19 @@
         "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
     },
 	"code": {
-    	"system": "http://radelement.org",
-        "code":"RDE424",
-        "display":"Pneumothorax size",
-		"value": {
-        	"value": "Medium",
-            "code": "Enumerated",
-            "system": "http://radelement.org"
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE424",
+	        "display":"Pneumothorax size"
+		}
+	},
+	"value": {
+	     	"valueCodeableConcept": {
+				"coding": {
+					"code": "Medium",
+	            	"system": "http://radelement.org",
+					"display": "Medium"
+			}
 		}
 	},
 	"basedOn": {

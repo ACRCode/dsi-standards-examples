@@ -5,14 +5,20 @@
 	"subject":{
         "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
     },
-    "code": {
-    	"system": "http://radelement.org",
-        "code": "RDE421",
-        "display":"Pneumothorax detection",
-        "value": {
-            "value": "Present",
-            "code": "Enumerated",
-            "system": "http://radelement.org"
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE421",
+	        "display":"Pneumothorax detection"
+		}
+	},
+	"value": {
+	     	"valueCodeableConcept": {
+				"coding": {
+					"code": "Present",
+	            	"system": "http://radelement.org",
+					"display": "Present"
+			}
 		}
 	}
 }

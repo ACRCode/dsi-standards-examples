@@ -6,13 +6,19 @@
         "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
     },
 	"code": {
-    	"system": "http://radelement.org",
-        "code":"RDE425",
-        "display":"Presence of chest tube",
-		"value": {
-        	"value": "Absent",
-            "code": "Enumerated",
-            "system": "http://radelement.org"
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE425",
+	        "display":"Presence of chest tube"
+		}
+	},
+	"value": {
+	     	"valueCodeableConcept": {
+				"coding": {
+					"code": "Absent",
+	            	"system": "http://radelement.org",
+					"display": "Absent"
+			}
 		}
 	}
 }

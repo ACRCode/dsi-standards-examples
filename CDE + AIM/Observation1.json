@@ -29,8 +29,8 @@
 	],
 	"derivedFrom" :{
 		"imagingStudy":{
-			"endpointAddress": "https://pacs.org/wado-rs",
-        	"identifier": "1.2.752.24.7.19011385.514521"	
-		}
+	  		"display": "acrsamplestudy",
+	    	"reference": "http://hackathon.siim.org/fhir-overview/fhir/ImagingStudy/acrsamplestudy"
+	    }
 	}
 }

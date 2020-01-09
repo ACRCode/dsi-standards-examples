@@ -6,12 +6,16 @@
         "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
     },
 	"code": {
-    	"system": "http://radelement.org",
-        "code": "RDE422",
-        "display":"Pleural separation in mm",
-			"value": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE422",
+        	"display":"Pleural separation in mm"
+		}
+	},
+	"value": {
+		"valueQuantity": {
             	"value": 5.7,
-                "code": "Float",
+                "unit": "mm",
                 "system": "http://radelement.org"
 			}
 	},
