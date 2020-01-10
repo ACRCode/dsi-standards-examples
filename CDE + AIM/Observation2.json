@@ -12,7 +12,6 @@
 	        "display":"Pneumothorax detection"
 		}
 	},
-	"value": {
 	     	"valueCodeableConcept": {
 				"coding": {
 					"code": "Present",
@@ -20,5 +19,4 @@
 					"display": "Present"
 			}
 		}
-	}
 }

@@ -12,7 +12,6 @@
 	        "display":"Pneumothorax side"
 		}
 	},
-	"value": {
 	     	"valueCodeableConcept": {
 				"coding": {
 					"code": "Left",
@@ -20,5 +19,4 @@
 					"display": "Left"
 			}
 		}
-	}
 }

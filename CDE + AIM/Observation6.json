@@ -12,7 +12,6 @@
 	        "display":"Presence of chest tube"
 		}
 	},
-	"value": {
 	     	"valueCodeableConcept": {
 				"coding": {
 					"code": "Absent",
@@ -20,5 +19,4 @@
 					"display": "Absent"
 			}
 		}
-	}
 }
