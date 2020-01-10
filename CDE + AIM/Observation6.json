@@ -12,11 +12,11 @@
 	        "display":"Presence of chest tube"
 		}
 	},
-	     	"valueCodeableConcept": {
-				"coding": {
-					"code": "Absent",
-	            	"system": "http://radelement.org",
-					"display": "Absent"
-			}
+	"valueCodeableConcept": {
+		"coding": {
+			"code": "Absent",
+	        	"system": "http://radelement.org",
+				"display": "Absent"
 		}
+	}
 }

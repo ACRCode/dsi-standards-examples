@@ -12,11 +12,11 @@
         	"display":"Pleural separation in mm"
 		}
 	},
-		"valueQuantity": {
-            	"value": 5.7,
-                "unit": "mm",
-                "system": "http://radelement.org"
-			},
+	"valueQuantity": {
+    	"value": 5.7,
+        "unit": "mm",
+        "system": "http://radelement.org"
+	},
 	"basedOn": {
 		"reference": "imageReference/ir1"
 	}

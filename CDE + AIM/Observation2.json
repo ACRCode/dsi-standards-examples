@@ -12,11 +12,11 @@
 	        "display":"Pneumothorax detection"
 		}
 	},
-	     	"valueCodeableConcept": {
-				"coding": {
-					"code": "Present",
-	            	"system": "http://radelement.org",
-					"display": "Present"
-			}
+	"valueCodeableConcept": {
+		"coding": {
+			"code": "Present",
+	        "system": "http://radelement.org",
+			"display": "Present"
 		}
+	}
 }

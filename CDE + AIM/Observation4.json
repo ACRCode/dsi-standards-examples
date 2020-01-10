@@ -12,11 +12,11 @@
 	        "display":"Pneumothorax side"
 		}
 	},
-	     	"valueCodeableConcept": {
-				"coding": {
-					"code": "Left",
-	            	"system": "http://radelement.org",
-					"display": "Left"
-			}
+	"valueCodeableConcept": {
+		"coding": {
+			"code": "Left",
+	        "system": "http://radelement.org",
+			"display": "Left"
 		}
+	}
 }

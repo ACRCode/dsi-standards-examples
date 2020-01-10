@@ -12,13 +12,13 @@
 	        "display":"Pneumothorax size"
 		}
 	},
-	     	"valueCodeableConcept": {
-				"coding": {
-					"code": "Medium",
-	            	"system": "http://radelement.org",
-					"display": "Medium"
-			}
-		},
+	"valueCodeableConcept": {
+		"coding": {
+			"code": "Medium",
+	        "system": "http://radelement.org",
+			"display": "Medium"
+		}
+	},
 	"basedOn": {
 		"reference": "imageReference/ir2"
 	}
