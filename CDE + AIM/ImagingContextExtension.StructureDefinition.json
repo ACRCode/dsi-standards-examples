@@ -1,0 +1,417 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "imagingContext",
+  "url": "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/ImagingContextExtension",
+  "version": "0.0.1",
+  "name": "ImagingContextExtension",
+  "status": "draft",
+  "date": "2020-02-20",
+  "contact": [
+    {
+      "name": "American College of Radiology (ACR)",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.acr.org/"
+        }
+      ]
+    }
+  ],
+  "description": "Creating Imaging Reference context as an extension of DocumentReference",
+  "fhirVersion": "4.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "DocumentReference.context"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Imaging Context Extension",
+        "definition": "Creating Imaging Reference context as an extension of DocumentReference"
+      },
+      {
+        "id": "Extension.id",
+        "path": "Extension.id",
+        "short": "Imaging Context Extension",
+        "definition": "Creating Imaging Reference context as an extension of DocumentReference",
+        "fixedString": "imagingContext"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:studyUid",
+        "path": "Extension.extension",
+        "sliceName": "studyUid",
+        "short": "Study instance UID",
+        "definition": "Study instance UID",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:studyUid.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "studyUid"
+      },
+      {
+        "id": "Extension.extension:studyUid.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:derivedFrom",
+        "path": "Extension.extension",
+        "sliceName": "derivedFrom",
+        "short": "Reference to ImagingStudy",
+        "definition": "Reference to ImagingStudy",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:derivedFrom.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "derivedFrom"
+      },
+      {
+        "id": "Extension.extension:derivedFrom.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "ImagingStudy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:seriesUid",
+        "path": "Extension.extension",
+        "sliceName": "seriesUid",
+        "short": "Series instance UID",
+        "definition": "Series instance UID",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:seriesUid.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "seriesUid"
+      },
+      {
+        "id": "Extension.extension:seriesUid.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance",
+        "path": "Extension.extension",
+        "sliceName": "instance",
+        "short": "The selected instances",
+        "definition": "The selected instances. If no instances are included the entire series is selected."
+      },
+      {
+        "id": "Extension.extension:instance.extension",
+        "path": "Extension.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:instance.extension:sopClass",
+        "path": "Extension.extension.extension",
+        "sliceName": "sopClass",
+        "short": "SOP class UID of instances",
+        "definition": "SOP class UID of instances",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:instance.extension:sopClass.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "sopClass"
+      },
+      {
+        "id": "Extension.extension:instance.extension:sopClass.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:uid",
+        "path": "Extension.extension.extension",
+        "sliceName": "uid",
+        "short": "Selected instance UIDs",
+        "definition": "Selected instance UIDs",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:instance.extension:uid.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "uid"
+      },
+      {
+        "id": "Extension.extension:instance.extension:uid.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:frameNumber",
+        "path": "Extension.extension.extension",
+        "sliceName": "frameNumber",
+        "short": "Selected frames",
+        "definition": "Selected frames"
+      },
+      {
+        "id": "Extension.extension:instance.extension:frameNumber.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "frameNumber"
+      },
+      {
+        "id": "Extension.extension:instance.extension:frameNumber.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:observationUid",
+        "path": "Extension.extension.extension",
+        "sliceName": "observationUid",
+        "short": "Selected observations in a DICOM SR",
+        "definition": "Selected observations in a DICOM SR"
+      },
+      {
+        "id": "Extension.extension:instance.extension:observationUid.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "observationUid"
+      },
+      {
+        "id": "Extension.extension:instance.extension:observationUid.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:trackingUid",
+        "path": "Extension.extension.extension",
+        "sliceName": "trackingUid",
+        "short": "Tracking UID for a measurement in a DICOM SR",
+        "definition": "Tracking UID for a measurement in a DICOM SR"
+      },
+      {
+        "id": "Extension.extension:instance.extension:trackingUid.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "trackingUid"
+      },
+      {
+        "id": "Extension.extension:instance.extension:trackingUid.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "type": [
+          {
+            "code": "oid"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion",
+        "path": "Extension.extension.extension",
+        "sliceName": "imageRegion",
+        "short": "Specifies region in a DICOM image or frame",
+        "definition": "Specifies region in a DICOM image or frame",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension",
+        "path": "Extension.extension.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:regionType",
+        "path": "Extension.extension.extension.extension",
+        "sliceName": "regionType",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:regionType.url",
+        "path": "Extension.extension.extension.extension.url",
+        "fixedUri": "regionType"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:regionType.value[x]",
+        "path": "Extension.extension.extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:regionType.value[x].system",
+        "path": "Extension.extension.extension.extension.value[x].system",
+        "short": "Graphic Data and Graphic Types",
+        "definition": "Graphic Data (0070,0022) contains the points in the graphic annotation, each dimension for the first point, followed by dimensions for second point, etc. For a two dimensional curve: X1, Y1, X2, Y2, etc. The first (X) dimension corresponds to the image or Specified Displayed Area column (horizontal offset), and the second (Y) dimension corresponds to the image or Specified Displayed Area row (vertical offset). The Value Representation of all components of the N-tuple shall be the same. The image or Specified Displayed Area relative drawing space is defined in Graphic Annotation Units (0070,0005).\r\nIf Graphic Type (0070,0023) is POINT, then two values (one point) shall be specified and the single point specified is to be drawn.\r\nIf Graphic Type (0070,0023) is POLYLINE, then the points are to be interpreted as an n-tuple list of end points between which straight lines are to be drawn.\r\nIf Graphic Type (0070,0023) is INTERPOLATED, then the points are to be interpreted as an n-tuple list of end points between which some form of implementation dependent curved lines are to be drawn. The rendered line shall pass through all the specified points.\r\nIf Graphic Type (0070,0023) is CIRCLE, then exactly two points shall be present; the first point is to be interpreted as the center and the second point as a point on the circumference of a circle, some form of implementation dependent representation of which is to be drawn.\r\nIf Graphic Type (0070,0023) is ELLIPSE, then exactly four points shall be present; the first two points are to be interpreted as the endpoints of the major axis and the second two points as the endpoints of the minor axis of an ellipse, some form of implementation dependent representation of which is to be drawn.",
+        "fixedUri": "http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.10.5.html#sect_C.10.5.1.2"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList",
+        "path": "Extension.extension.extension.extension",
+        "sliceName": "coordinateList",
+        "short": "Specifies a sequence of coordinates",
+        "definition": "Specifies a sequence of coordinates",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension",
+        "path": "Extension.extension.extension.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension:2dCoordinateList",
+        "path": "Extension.extension.extension.extension.extension",
+        "sliceName": "2dCoordinateList",
+        "short": "Specifies a sequence of (x,y) coordinates",
+        "definition": "Specifies a sequence of (x,y) coordinates"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension:2dCoordinateList.url",
+        "path": "Extension.extension.extension.extension.extension.url",
+        "fixedUri": "2dCoordinateList"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension:2dCoordinateList.value[x]",
+        "path": "Extension.extension.extension.extension.extension.value[x]",
+        "type": [
+          {
+            "code": "decimal"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension:3dCoordinateList",
+        "path": "Extension.extension.extension.extension.extension",
+        "sliceName": "3dCoordinateList",
+        "short": "Specifies a sequence of (x,y,z) coordinates",
+        "definition": "Specifies a sequence of (x,y,z) coordinates"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.extension:3dCoordinateList.url",
+        "path": "Extension.extension.extension.extension.extension.url",
+        "fixedUri": "3dCoordinateList"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.url",
+        "path": "Extension.extension.extension.extension.url",
+        "fixedUri": "coordinateList"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.extension:coordinateList.value[x]",
+        "path": "Extension.extension.extension.extension.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.url",
+        "path": "Extension.extension.extension.url",
+        "fixedUri": "imageRegion"
+      },
+      {
+        "id": "Extension.extension:instance.extension:imageRegion.value[x]",
+        "path": "Extension.extension.extension.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:instance.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "instance"
+      },
+      {
+        "id": "Extension.extension:instance.value[x]",
+        "path": "Extension.extension.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/ImagingContextExtension"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}
