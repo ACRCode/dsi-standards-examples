@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageAnnotationCollection xmlns="gme://caCORE.caCORE/4.4/edu.northwestern.radiology.AIM" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" aimVersion="AIMv4_2" xsi:schemaLocation="gme://caCORE.caCORE/4.4/edu.northwestern.radiology.AIM AIM_v4.2_rv2_XML.xsd">
+  <uniqueIdentifier root="2.25.254601151564420139758736305782207059085" />
+  <studyInstanceUid root="1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.5.2.1" />
+  <seriesInstanceUid root="2.25.332038331943267193635010730215284021472" />
+  <accessionNumber value="" />
+  <dateTime value="20200327144746" />
+  <user>
+    <name value="SIIM^Provider^^MD" />
+    <loginName value="siimmd" />
+  </user>
+  <equipment>
+    <manufacturerName value="" />
+    <manufacturerModelName value="" />
+    <softwareVersion value="" />
+  </equipment>
+  <person>
+    <name value="SIIM^ANDY" />
+    <id value="siimandy" />
+    <birthDate value="19260401" />
+    <sex value="M" />
+  </person>
+  <imageAnnotations>
+    <ImageAnnotation>
+      <uniqueIdentifier root="2.25.255647242867061123667585493311746024212" />
+      <typeCode code="RDES44" codeSystemName="http://radelement.org">
+        <iso:displayName xmlns:iso="uri:iso.org:21090" value="Detection and quantification of pneumothorax on chest radiograph" />
+      </typeCode>
+      <dateTime value="03.27.2020T09:48:33PM.Zone:GMT" />
+      <name value="Lesion1~sp1~-~sp1~-1~sp1~#FFFFFF" />
+      <comment value="OT / XRAY / 1 / 1" />
+      <precedentReferencedAnnotationUid root="2.25.280713897972539444111797149443300797607" />
+      <calculationEntityCollection>
+        <CalculationEntity>
+          <uniqueIdentifier root="2.25.254631378364959872447959663005233858163" />
+          <typeCode code="RDE422" codeSystemName="http://radelement.org">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Pleural Separation" />
+          </typeCode>
+          <description value="Measure pleural separation in mm" />
+          <calculationResultCollection>
+            <CalculationResult type="Scalar" xsi:type="CompactCalculationResult">
+              <unitOfMeasure value="mm" />
+              <dataType code="C48870" codeSystemName="NCI">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Double" />
+              </dataType>
+              <dimensionCollection>
+                <Dimension>
+                  <index value="0" />
+                  <size value="1" />
+                  <label value="Pleural Separation" />
+                </Dimension>
+              </dimensionCollection>
+              <value value="93.23445892333984" />
+            </CalculationResult>
+          </calculationResultCollection>
+        </CalculationEntity>
+        <CalculationEntity>
+          <uniqueIdentifier root="2.25.296597861735628379114342455171250564065" />
+          <typeCode code="R-00317" codeSystemName="SRT">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Mean" />
+          </typeCode>
+          <description value="Mean" />
+          <calculationResultCollection>
+            <CalculationResult type="Scalar" xsi:type="CompactCalculationResult">
+              <unitOfMeasure value="1" />
+              <dataType code="C48870" codeSystemName="NCI">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Double" />
+              </dataType>
+              <dimensionCollection>
+                <Dimension>
+                  <index value="0" />
+                  <size value="1" />
+                  <label value="Mean" />
+                </Dimension>
+              </dimensionCollection>
+              <value value="81.16666666666667" />
+            </CalculationResult>
+          </calculationResultCollection>
+        </CalculationEntity>
+        <CalculationEntity>
+          <uniqueIdentifier root="2.25.47445017031137649717217435388328719633" />
+          <typeCode code="R-10047" codeSystemName="SRT">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Standard Deviation" />
+          </typeCode>
+          <description value="Standard Deviation" />
+          <calculationResultCollection>
+            <CalculationResult type="Scalar" xsi:type="CompactCalculationResult">
+              <unitOfMeasure value="1" />
+              <dataType code="C48870" codeSystemName="NCI">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Double" />
+              </dataType>
+              <dimensionCollection>
+                <Dimension>
+                  <index value="0" />
+                  <size value="1" />
+                  <label value="Standard Deviation" />
+                </Dimension>
+              </dimensionCollection>
+              <value value="11.903547557112729" />
+            </CalculationResult>
+          </calculationResultCollection>
+        </CalculationEntity>
+        <CalculationEntity>
+          <uniqueIdentifier root="2.25.124853568061877922669076676212313929157" />
+          <typeCode code="R-404FB" codeSystemName="SRT">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Minimum" />
+          </typeCode>
+          <description value="Minimum" />
+          <calculationResultCollection>
+            <CalculationResult type="Scalar" xsi:type="CompactCalculationResult">
+              <unitOfMeasure value="1" />
+              <dataType code="C48870" codeSystemName="NCI">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Double" />
+              </dataType>
+              <dimensionCollection>
+                <Dimension>
+                  <index value="0" />
+                  <size value="1" />
+                  <label value="Minimum" />
+                </Dimension>
+              </dimensionCollection>
+              <value value="60" />
+            </CalculationResult>
+          </calculationResultCollection>
+        </CalculationEntity>
+        <CalculationEntity>
+          <uniqueIdentifier root="2.25.18292968645036061379498790410404434082" />
+          <typeCode code="G-A437" codeSystemName="SRT">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Maximum" />
+          </typeCode>
+          <description value="Maximum" />
+          <calculationResultCollection>
+            <CalculationResult type="Scalar" xsi:type="CompactCalculationResult">
+              <unitOfMeasure value="1" />
+              <dataType code="C48870" codeSystemName="NCI">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Double" />
+              </dataType>
+              <dimensionCollection>
+                <Dimension>
+                  <index value="0" />
+                  <size value="1" />
+                  <label value="Maximum" />
+                </Dimension>
+              </dimensionCollection>
+              <value value="114" />
+            </CalculationResult>
+          </calculationResultCollection>
+        </CalculationEntity>
+      </calculationEntityCollection>
+      <imagingObservationEntityCollection>
+        <ImagingObservationEntity>
+          <uniqueIdentifier root="2.25.80620125392484583809211091480206970723" />
+          <questionTypeCode code="RDE421" codeSystemName="http://radelement.org" codeSystemVersion="">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Pneumothorax Detection" />
+          </questionTypeCode>
+          <typeCode code="RID28472" codeSystemName="RadLex" codeSystemVersion="4.0">
+            <iso:displayName xmlns:iso="uri:iso.org:21090" value="Present" />
+          </typeCode>
+          <annotatorConfidence value="0.0" />
+          <label value="Pneumothorax Detection" />
+          <comment value="" />
+          <imagingObservationCharacteristicCollection>
+            <ImagingObservationCharacteristic>
+              <questionTypeCode code="RDE423" codeSystemName="http://radelement.org" codeSystemVersion="">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Pneumothorax Side" />
+              </questionTypeCode>
+              <typeCode code="RID5825" codeSystemName="RadLex" codeSystemVersion="4.0">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Right" />
+              </typeCode>
+              <annotatorConfidence value="0.0" />
+              <label value="Pneumothorax Side" />
+            </ImagingObservationCharacteristic>
+            <ImagingObservationCharacteristic>
+              <questionTypeCode code="RDE424" codeSystemName="http://radelement.org" codeSystemVersion="">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Pneumothorax Size" />
+              </questionTypeCode>
+              <typeCode code="RID5774" codeSystemName="RadLex" codeSystemVersion="4.0">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Small" />
+              </typeCode>
+              <annotatorConfidence value="0.0" />
+              <label value="Pneumothorax Size" />
+            </ImagingObservationCharacteristic>
+            <ImagingObservationCharacteristic>
+              <questionTypeCode code="RDE425" codeSystemName="http://radelement.org" codeSystemVersion="">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Chest Tube" />
+              </questionTypeCode>
+              <typeCode code="RID28473" codeSystemName="RadLex" codeSystemVersion="4.0">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="Absent" />
+              </typeCode>
+              <annotatorConfidence value="0.0" />
+              <label value="Chest Tube" />
+            </ImagingObservationCharacteristic>
+          </imagingObservationCharacteristicCollection>
+        </ImagingObservationEntity>
+      </imagingObservationEntityCollection>
+      <markupEntityCollection>
+        <MarkupEntity xsi:type="TwoDimensionMultiPoint">
+          <uniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+          <shapeIdentifier value="1" />
+          <includeFlag value="true" />
+          <imageReferenceUid root="1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.6.1.1.1.1" />
+          <referencedFrameNumber value="1" />
+          <twoDimensionSpatialCoordinateCollection>
+            <TwoDimensionSpatialCoordinate>
+              <coordinateIndex value="0" />
+              <x value="371.0707070707071" />
+              <y value="196.52525252525254" />
+            </TwoDimensionSpatialCoordinate>
+            <TwoDimensionSpatialCoordinate>
+              <coordinateIndex value="1" />
+              <x value="376.24242424242425" />
+              <y value="103.43434343434345" />
+            </TwoDimensionSpatialCoordinate>
+          </twoDimensionSpatialCoordinateCollection>
+        </MarkupEntity>
+      </markupEntityCollection>
+      <imageAnnotationStatementCollection>
+        <ImageAnnotationStatement xsi:type="CalculationEntityReferencesMarkupEntityStatement">
+          <subjectUniqueIdentifier root="2.25.254631378364959872447959663005233858163" />
+          <objectUniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+        </ImageAnnotationStatement>
+        <ImageAnnotationStatement xsi:type="CalculationEntityReferencesMarkupEntityStatement">
+          <subjectUniqueIdentifier root="2.25.296597861735628379114342455171250564065" />
+          <objectUniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+        </ImageAnnotationStatement>
+        <ImageAnnotationStatement xsi:type="CalculationEntityReferencesMarkupEntityStatement">
+          <subjectUniqueIdentifier root="2.25.47445017031137649717217435388328719633" />
+          <objectUniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+        </ImageAnnotationStatement>
+        <ImageAnnotationStatement xsi:type="CalculationEntityReferencesMarkupEntityStatement">
+          <subjectUniqueIdentifier root="2.25.124853568061877922669076676212313929157" />
+          <objectUniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+        </ImageAnnotationStatement>
+        <ImageAnnotationStatement xsi:type="CalculationEntityReferencesMarkupEntityStatement">
+          <subjectUniqueIdentifier root="2.25.18292968645036061379498790410404434082" />
+          <objectUniqueIdentifier root="2.25.56813687837226251041840942304260427525" />
+        </ImageAnnotationStatement>
+      </imageAnnotationStatementCollection>
+      <imageReferenceEntityCollection>
+        <ImageReferenceEntity xsi:type="DicomImageReferenceEntity">
+          <uniqueIdentifier root="2.25.50430169009686622035864895467014751214" />
+          <imageStudy>
+            <instanceUid root="1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.5.2.1" />
+            <startDate value="20190621" />
+            <startTime value="151918" />
+            <accessionNumber value="" />
+            <imageSeries>
+              <instanceUid root="1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.5.3.1.1" />
+              <modality code="99EPADM0" codeSystemName="99EPAD">
+                <iso:displayName xmlns:iso="uri:iso.org:21090" value="NA" />
+              </modality>
+              <imageCollection>
+                <Image>
+                  <sopClassUid root="1.2.840.10008.5.1.4.1.1.7" />
+                  <sopInstanceUid root="1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.6.1.1.1.1" />
+                </Image>
+              </imageCollection>
+            </imageSeries>
+          </imageStudy>
+        </ImageReferenceEntity>
+      </imageReferenceEntityCollection>
+    </ImageAnnotation>
+  </imageAnnotations>
+</ImageAnnotationCollection>
