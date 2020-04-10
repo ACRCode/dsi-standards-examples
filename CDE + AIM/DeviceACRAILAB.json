@@ -1,0 +1,30 @@
+{
+  "resourceType": "Device",
+  "id": "ailabacr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div><!-- Snipped for Brevity --></div>"
+  },
+  "deviceName": [
+    {
+      "name": "AI LAB ACR",
+      "type": "user-friendly-name"
+    },
+	{
+      "name": "ACR",
+      "type": "manufacturer-name"
+    },
+	{
+      "name": "AI LAB",
+      "type": "model-name"
+    },
+	{
+      "name": "(01)12345678901234(17)140102(11)100102(10)A1234(21)1234",
+      "type": "udi-label-name"
+    },
+	{
+      "name": "version20200401",
+      "type": "other"
+    }
+  ]
+}

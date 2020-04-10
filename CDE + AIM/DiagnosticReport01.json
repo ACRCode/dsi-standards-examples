@@ -1,0 +1,27 @@
+{
+	"resourceType":"DiagnosticReport",
+	"id": "imgintsample01",
+    "status":"final",
+    "code":{
+		"system": "http://loinc.org",
+		"code": "36589-0",
+        "text": "Portable XR Chest AP single view"
+    },
+    "subject":{
+       	"display": "Joe Siim",
+       	"reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+    "performer":{
+       	"display": "Provider SIIM, MD",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Practitioner/siimmd"
+    },
+    "result":{
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Observation/sample01ob01",
+		"display": "Pneumothrax Sample Case 01"
+	},
+	"imagingStudy":{
+  		"display": "aimsamplestudy01",
+    	"reference": "http://hackathon.siim.org/fhir-overview/fhir/ImagingStudy/aimsamplestudy01"
+    },
+	"conclusion":"This is a sample report that contains imaging observations as well as annotations formed with AIM"
+}

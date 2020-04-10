@@ -1,0 +1,71 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "sample02dr01",
+  "status": "current",
+  "subject": {
+    "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimandy"
+  },
+  "date": "2020-03-27T21:47:46-00:00",
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/dicom",
+        "url": "https://dicomweb.myhospital.com/studies/1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.5.2.1/series/2.16.840.1.114362.1.11826050.22320936107.544065617.957.8/instances/2.16.840.1.114362.1.11826050.22320936107.544065617.957.7"
+      }
+    }
+  ],
+  "context": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "studyUid",
+            "valueOid": "1.3.6.1.4.1.5962.99.1.1195.8433.1555973908712.5.2.1"
+          },
+          {
+            "url": "seriesUid",
+            "valueOid": "2.16.840.1.114362.1.11826050.22320936107.544065617.957.8"
+          },
+          {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "regionType",
+                    "valueCoding": {
+                      "system": "http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.10.5.html#sect_C.10.5.1.2",
+                      "code": "POLYLINE"
+                    }
+                  },
+                  {
+                    "url": "2dCoordinateList",
+                    "valueString": "371.0707070707071 196.52525252525254 376.24242424242425 103.43434343434345"
+                  }
+                ],
+                "url": "imageRegion"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "extension": [
+                  {
+            		"url": "uid",
+            		"valueOid": "2.16.840.1.114362.1.11826050.22320936107.544065617.957.7"
+        		  },
+				  {
+				  	"url": "trackingUid",
+					"valueOid": "2.25.56813687837226251041840942304260427525"
+				  }
+                ],
+                "url": "instance"
+              }
+            ]
+          }
+          ],
+        "url": "http://hackathon.siim.org/fhir-overview/fhir/StructureDefinition/ImagingContext"
+      }
+    ]
+  }
+}

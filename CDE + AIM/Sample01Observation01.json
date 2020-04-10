@@ -1,0 +1,40 @@
+{
+	"resourceType": "Observation",
+    "id": "sample01ob01",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+    "code": {
+    	"system": "http://radelement.org",
+        "code":"RDES44",
+        "display":"Pneumothorax"
+	},
+    "performer":{
+       	"display": "Provider SIIM, MD",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Practitioner/siimmd"
+    },
+	"hasMember": [
+		{
+		"reference": "Observation/sample01ob02"
+		},
+		{
+		"reference": "Observation/sample01ob03"
+		},
+		{
+		"reference": "Observation/sample01ob04"
+		},
+		{
+		"reference": "Observation/sample01ob05"
+		},		
+		{
+		"reference": "Observation/sample01ob06"
+		}
+	],
+	"derivedFrom" :{
+		"imagingStudy":{
+	  		"display": "aimsamplestudy01",
+	    	"reference": "http://hackathon.siim.org/fhir-overview/fhir/ImagingStudy/aimsamplestudy01"
+	    }
+	}
+}

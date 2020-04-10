@@ -1,0 +1,32 @@
+{
+	"resourceType": "Observation",
+    "id": "sample02ob02",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimandy"
+    },
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE421",
+	        "display":"Pneumothorax detection"
+		}
+	},
+    "performer":{
+       	"display": "Provider SIIM, MD",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Practitioner/siimmd"
+    },
+	"valueCodeableConcept": {
+		"coding": [{
+			"code": "Present",
+	        "system": "http://radelement.org",
+			"display": "Present"
+			},
+			{
+			"code": "RID28472",
+	        "system": "http://radlex.org",
+			"display": "Present"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"resourceType": "Observation",
+    "id": "sample02ob05",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimandy"
+    },
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE424",
+	        "display":"Pneumothorax size"
+		}
+	},
+	"valueCodeableConcept": {
+		"coding": [{
+			"code": "Small",
+	        "system": "http://radelement.org",
+			"display": "Small"
+			},
+			{
+			"code": "RID5774",
+	        "system": "http://radlex.org",
+			"display": "Small"
+			}
+		]
+	}
+}

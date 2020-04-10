@@ -1,0 +1,27 @@
+{
+	"resourceType": "Observation",
+    "id": "sample01ob03",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimjoe"
+    },
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE422",
+        	"display":"Pleural separation in mm"
+		}
+	},
+    "performer":{
+       	"display": "Provider SIIM, MD",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Practitioner/siimmd"
+    },
+	"valueQuantity": {
+    	"value": 72.86433410644531,
+        "unit": "mm",
+        "system": "http://radelement.org"
+	},
+	"derivedFrom": {
+		"reference": "DocumentReference/sample01dr01"
+	}
+}

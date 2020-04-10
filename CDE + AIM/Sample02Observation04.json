@@ -1,0 +1,28 @@
+{
+	"resourceType": "Observation",
+    "id": "sample02ob04",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimandy"
+    },
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE423",
+	        "display":"Pneumothorax side"
+		}
+	},
+	"valueCodeableConcept": {
+		"coding": [{
+			"code": "Right",
+	        "system": "http://radelement.org",
+			"display": "Right"
+			},
+			{
+			"code": "RID5825",
+	        "system": "http://radlex.org",
+			"display": "Right"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"resourceType": "Observation",
+    "id": "sample02ob06",
+	"status": "final",
+	"subject":{
+        "reference": "http://hackathon.siim.org/fhir-overview/fhir/Patient/siimandy"
+    },
+	"code": {
+	    "coding": {
+	    	"system": "http://radelement.org",
+	        "code": "RDE425",
+	        "display":"Presence of chest tube"
+		}
+	},
+	"valueCodeableConcept": {
+		"coding": [{
+			"code": "Absent",
+	        	"system": "http://radelement.org",
+				"display": "Absent"
+			},
+			{
+			"code": "RID28473",
+	        "system": "http://radlex.org",
+			"display": "Absent"
+			}
+		]
+	}
+}
