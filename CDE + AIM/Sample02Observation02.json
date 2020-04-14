@@ -16,6 +16,13 @@
        	"display": "Provider SIIM, MD",
 		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Practitioner/siimmd"
     },
+    "device":{
+       	"display": "AI LAB ACR",
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/Device/ailabacr"
+    },
+    "derivedFrom":{
+		"reference": "http://hackathon.siim.org/fhir-overview/fhir/ImagingStudy/aimsamplestudy02"
+    },
 	"valueCodeableConcept": {
 		"coding": [{
 			"code": "Present",
